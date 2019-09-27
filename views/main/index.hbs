@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./img/weather.png">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h1>Welcome to Hbs Page! </h1>
+        <form action="" method="" id="wsearch">
+            <input type="text" name="location" id="loc" placeholder="Location">
+            <button type="submit">Search</button>
+        </form>
+        <div id="weatherResult">
+            <p id="msg1"></p>
+            <p id="msg2"></p>
+            <p id="msg3"></p>
+        </div>
+    </div>
+    {{>footer}}
+
+
+
+    {{!-- JS files --}}
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
