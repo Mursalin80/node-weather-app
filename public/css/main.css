@@ -25,6 +25,14 @@ footer {
 header {
   margin-top: 16px;
   margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to left, #e05358, #7a83e7);
+}
+img.icon {
+  width: 45px;
+  margin: 4px 15px;
 }
 
 h1 {
@@ -46,7 +54,7 @@ img.potrate {
 
 #weatherResult {
   margin-top: 15px;
-  width: 300px;
+  width: 500px;
   padding: 10px;
 }
 
@@ -67,4 +75,8 @@ button {
   color: rgb(12, 88, 95);
   padding: 8px;
   background: #8b93e4;
+}
+
+#msg4 {
+  color: #eeeeee;
 }
