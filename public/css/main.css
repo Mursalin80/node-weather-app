@@ -61,3 +61,10 @@ button {
   color: rgb(43, 56, 97);
   padding: 8px;
 }
+.loc {
+  cursor: pointer;
+  border: 1px solid #7781e9;
+  color: rgb(12, 88, 95);
+  padding: 8px;
+  background: #8b93e4;
+}
